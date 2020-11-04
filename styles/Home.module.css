@@ -51,3 +51,32 @@
   display: flex;
   justify-content: space-around;
 }
+
+.aboutMe {
+  height: 100vh;
+  width: 100vw;
+  background: #23395d;
+}
+
+.aboutTitle {
+  margin-left: 10vw;
+  color: #ff4f6d;
+  font-size: 3rem;
+}
+
+.aboutInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.aboutImg {
+  width: 30vw;
+}
+
+.aboutDes {
+  width: 30vw;
+  height: 70vh;
+  font-size: 1.3rem;
+  color: #ffffff;
+}

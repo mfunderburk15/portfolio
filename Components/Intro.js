@@ -6,7 +6,7 @@ export default function Intro() {
         <h1 className={styles.introName}>Masen Funderburk</h1>
         <p className={styles.introTitle}>Full Stack Web Developer</p>
       </div>
-      <img src="/Masen.png" />
+      <img className={styles.introImg} src="/Masen.png" />
     </div>
   );
 }

@@ -28,3 +28,26 @@
 .introTitle {
   color: #ffffff;
 }
+
+.introImg {
+  width: 375px;
+  height: 375px;
+}
+
+.nav {
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  top: 0;
+  color: #ffffff;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks {
+  width: 60vw;
+  display: flex;
+  justify-content: space-around;
+}

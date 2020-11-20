@@ -1,7 +1,7 @@
 import styles from "../styles/Home.module.css";
 export default function Intro() {
   return (
-    <div className={styles.skills}>
+    <div className={styles.skills} id="skills">
       <h2 className={styles.skillTitle}>Skills:</h2>
       <div className={styles.skillContainer}>
         <img className={styles.skill} src="/html5-original-wordmark.svg" />

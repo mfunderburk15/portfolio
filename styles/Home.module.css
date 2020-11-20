@@ -30,13 +30,13 @@
 }
 
 .introImg {
-  width: 375px;
-  height: 375px;
+  width: 30vw;
 }
 
 .nav {
   width: 100vw;
   height: 10vh;
+  background: #000000;
   position: fixed;
   top: 0;
   color: #ffffff;
@@ -71,12 +71,49 @@
 }
 
 .aboutImg {
+  width: 32vw;
+}
+
+.aboutCon {
   width: 30vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .aboutDes {
   width: 30vw;
-  height: 70vh;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #ffffff;
+}
+.aboutBod {
+  width: 30vw;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+.skills {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #152238;
+}
+
+.skillTitle {
+  margin-left: 8vw;
+  color: #ff4f6d;
+  font-size: 3rem;
+}
+
+.skillContainer {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.skill {
+  width: 10vw;
+  display: flex;
+  justify-self: center;
+  margin: 10vh 0;
 }

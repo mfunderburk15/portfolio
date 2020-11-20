@@ -3,6 +3,7 @@ import Intro from "../Components/intro.js";
 import Header from "../Components/Header.js";
 import AboutMe from "../Components/AboutMe.js";
 import Skills from "../Components/Skills.js";
+import Projects from "../Components/Projects.js";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Intro />
       <AboutMe />
       <Skills />
+      <Projects />
     </div>
   );
 }

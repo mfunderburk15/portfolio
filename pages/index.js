@@ -7,13 +7,19 @@ import Projects from "../Components/Projects.js";
 import ContactMe from "../Components/ContactMe.js";
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Header />
-      <Intro />
-      <AboutMe />
-      <Skills />
-      <Projects />
-      <ContactMe />
+    <div>
+      <head>
+        <link rel="icon" href="/icon.png" />
+        <title>Masen's Portfolio</title>
+      </head>
+      <div className={styles.container}>
+        <Header />
+        <Intro />
+        <AboutMe />
+        <Skills />
+        <Projects />
+        <ContactMe />
+      </div>
     </div>
   );
 }

@@ -163,3 +163,33 @@
   color: #383838;
   margin: 1vw;
 }
+
+.contactMe {
+  width: 99vw;
+  height: 50vh;
+  background: #65c9ff;
+}
+
+.contactTitle {
+  margin-left: 8vw;
+  color: #ff4f6d;
+  font-size: 3rem;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactIconContainer {
+  width: 99vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+}
+
+.contactIcon {
+  height: 5vh;
+  margin: 0 2vw;
+}

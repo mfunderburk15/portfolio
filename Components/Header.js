@@ -6,8 +6,8 @@ export default function Header() {
       <div className={styles.navLinks}>
         <a href="#aboutMe">About Me</a>
         <a href="#skills">Skills</a>
-        <a>Projects</a>
-        <a>Contact Me</a>
+        <a href="#Projects">Projects</a>
+        <a href="#ContactMe">Contact Me</a>
       </div>
     </div>
   );

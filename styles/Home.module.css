@@ -166,7 +166,7 @@
 
 .contactMe {
   width: 99vw;
-  height: 50vh;
+  height: 40vh;
   background: #65c9ff;
 }
 
@@ -183,13 +183,12 @@
 }
 
 .contactIconContainer {
-  width: 99vw;
-  height: 20vh;
+  width: 15vw;
+  height: 10vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .contactIcon {
   height: 5vh;
-  margin: 0 2vw;
 }

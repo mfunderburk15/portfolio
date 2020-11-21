@@ -129,3 +129,37 @@
   color: #ff4f6d;
   font-size: 3rem;
 }
+
+.projectsContainer {
+  width: 99vw;
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.des {
+  width: 20vw;
+  height: 35vh;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.77);
+}
+
+.desImg {
+  width: 18vw;
+  margin: 1vw;
+}
+
+.desTitle {
+  font-size: 1rem;
+  margin: 1vw;
+}
+
+.desPro {
+  font-size: 0.8rem;
+  color: #383838;
+  margin: 1vw;
+}

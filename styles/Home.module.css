@@ -235,7 +235,8 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: repeat (2, 1fr);
+    grid-auto-rows: 25%;
   }
   .skill {
     width: 20vw;

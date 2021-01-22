@@ -4,7 +4,7 @@ export default function ContactMe() {
     <div id="ContactMe" className={styles.contactMe}>
       <h2 className={styles.contactTitle}>Contact Me:</h2>
       <div className={styles.contactContainer}>
-        <p>
+        <p className={styles.contactEmail}>
           Email:
           <a href="mailto:masen.funderburk@gmail.com">
             <span> masen.funderburk@gmail.com</span>

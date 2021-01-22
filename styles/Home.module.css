@@ -211,6 +211,9 @@
     margin: 0;
     font-size: 5rem;
   }
+  .nav {
+    display: none;
+  }
   .aboutInfo {
     display: flex;
     flex-direction: column;
@@ -277,5 +280,13 @@
     font-size: 1rem;
     color: #383838;
     margin: 1vw;
+  }
+  .contactMe {
+    width: 99vw;
+    height: 30vh;
+    background: #65c9ff;
+  }
+  .contactEmail {
+    font-size: 1.5rem;
   }
 }
